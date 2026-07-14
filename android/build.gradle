@@ -75,3 +75,9 @@ if (useBuiltInKotlin) {
         }
     }
 }
+
+if (!useBuiltInKotlin) {
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
